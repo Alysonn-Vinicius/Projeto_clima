@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clima - Buscador</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <h1>Clima</h1>
+
+    <form class="busca">
+        <input type="text" placeholder="Nome de cidade" id="input">
+        <button>Buscar</button>
+    </form>
+
+    <div class="resultado">
+        <div class="titulo">--, --</div>
+
+        <div class="bloco principal">
+            <img class="img" src="http://openweathermap.org/img/wn/10d@2x.png" class="img" />
+            <div class="tempInfo">-- <sup>ºC</sup></div>
+        </div>
+
+        <div class="bloco detalhes">
+            <div class="item">
+                <span>Máx</span>
+                <div class="tempMax">--</div>
+            </div>
+            <div class="item">
+                <span>Min</span>
+                <div class="tempMin">--</div>
+            </div>
+        </div>
+
+        <div class="bloco vento">
+            <span>Vento</span>
+            <div class="ventoInfo">-- km/h</div>
+        </div>
+    </div>
+
+    <div class="aviso"></div>
+
+    <footer>Criado por B7WEB e Alysonn</footer>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
